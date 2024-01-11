@@ -11,9 +11,9 @@
 197.154.43.5
 
 [roboshop:children]
-197.265.37.4
-199.267.43.5
-195.287.22.6
+[web]
+[cart]
+
 
 [localhost]
 localhost
