@@ -1,0 +1,5 @@
+- name: ping play book
+
+  tasks: 
+  - name: ping the server
+    ansibile.builtin.ping:
