@@ -1,4 +1,8 @@
-
+- name: ping play book
+  host: web
+  tasks: 
+  - name: ping the server
+    ansible.builtin.server:
 
 
   
