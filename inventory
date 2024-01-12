@@ -6,7 +6,7 @@
 localhost
 
 [localhost:vars]
-course="devops from inventory"
+course="devops"
 trainer="siva"
 
 [web]
