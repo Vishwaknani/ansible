@@ -21,10 +21,10 @@
   - name: "print list"
     ansible.builtin.debug:
       msg: "skills: {{SKILLS}}" 
-
+      
    - name: "print map"
     ansible.builtin.debug:
-      msg: "experience: {{EXPERIENCE}}"    
+      msg: "experience: {{EXPERIENCE}}"   
 
    - name: "print Boolean"
     ansible.builtin.debug:
