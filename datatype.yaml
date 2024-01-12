@@ -17,6 +17,9 @@
   - name: print keyvalue pair
     ansible.builtin.debug:
       msg: "name: {{NAME}}"
+  - name: print map
+    ansible.builtin.debug:
+      msg: "skills: {{SKILLS}}"    
 
       
 
