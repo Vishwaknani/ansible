@@ -8,6 +8,7 @@ localhost
 [localhost:vars]
 course="devops"
 trainer="siva"
+duration="3 months"
 
 [web]
 34.201.112.145
