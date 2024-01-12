@@ -5,7 +5,7 @@
 [localhost]
 localhost
 
-[lovalhost:vars]
+[localhost:vars]
 course="devops from inventory"
 trainer="siva"
 
