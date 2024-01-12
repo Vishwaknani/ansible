@@ -2,9 +2,9 @@
   hosts: localhost
 
   vars:
-    course: "devops"
-    trainer: "siva"
-    duration: "3 months"
+    course: "devops and aws "
+    trainer: "siva and kumar"
+    duration: "3 months annaru"
   tasks:
   - name: check variables
     ansible.builtin.debug:
