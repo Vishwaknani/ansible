@@ -15,5 +15,5 @@
     trainer: true
   tasks:
   - name: "print keyvalue pair"
-      ansible.builtin.debug:
-        msg: "name: {{NAME}}"
+    ansible.builtin.debug:
+      msg: "name: {{NAME}}"
