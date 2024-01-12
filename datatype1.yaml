@@ -1,3 +1,4 @@
+
 - name: checking data types
   hosts: localhost
   vars:
@@ -14,7 +15,7 @@
       linux: 6
     trainer: true
   tasks:
-  - name:  print keyvalue pair
+  - name: "print keyvalue pair"
       ansible.builtin.debug:
         msg: "name: {{NAME}}"
         
