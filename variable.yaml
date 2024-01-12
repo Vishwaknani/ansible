@@ -7,6 +7,6 @@
   tasks: 
   - name: check variables
     ansible.builtin.debug:
-      hi "iam learing  {{course}} "
+      hi "iam learing  {{course}}, trainer is {{trainer}}, course is {{course}} "
       
 
