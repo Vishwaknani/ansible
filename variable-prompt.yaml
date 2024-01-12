@@ -5,7 +5,7 @@
     prompt: pls enter usr name
     private: false
   - name: PASSWORD
-    prompt: pls enter ur password
+    prompt: please enter your password
     private: true
   tasks:
   - name: print and check the values
