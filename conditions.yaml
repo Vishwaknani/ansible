@@ -1,5 +1,6 @@
 - name: condition
   hosts: localhost
+  become: yes
   tasks:
   - name: roboshop user exits or not
     ansible.builtin.command: id roboshop
