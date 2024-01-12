@@ -1,4 +1,3 @@
-
 - name: checking data types
   hosts: localhost
   vars:
@@ -18,4 +17,3 @@
   - name: "print keyvalue pair"
       ansible.builtin.debug:
         msg: "name: {{NAME}}"
-        
