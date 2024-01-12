@@ -14,7 +14,7 @@
       linux: 6
     trainer: true
   tasks:
-  - name: print key value pair
+  - name: print keyvalue pair
       ansible.builtin.debug:
         msg: "name: {{NAME}}"
   - name: print List
