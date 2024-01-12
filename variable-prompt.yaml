@@ -8,7 +8,7 @@
     prompt: pls enter ur password
     private: true
   tasks:
-  - name: print and check the vaalues
+  - name: print and check the values
     ansible.builtin.debug:
       msg: "username is: {{username}}"  
      
