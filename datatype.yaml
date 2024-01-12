@@ -15,19 +15,19 @@
     trainer: true
   tasks:
   - name: "print keyvalue pair"
-    ansible.builtin.debug:
-      msg: "name: {{NAME}}"
+      ansible.builtin.debug:
+        msg: "name: {{NAME}}"
 
   - name: "print list"
-    ansible.builtin.debug:
-      msg: "skills: {{SKILLS}}" 
+      ansible.builtin.debug:
+        msg: "skills: {{SKILLS}}" 
 
   - name: "print map"
-    ansible.builtin.debug:
-      msg: "experience: {{EXPERIENCE}}"
+      ansible.builtin.debug:
+        msg: "experience: {{EXPERIENCE}}"
 
   - name: "print boolean"
-    ansible.builtin.debug:
-      msg: "is he trainer": {{trainer}}"       
+      ansible.builtin.debug:
+        msg: "is he trainer": {{trainer}}"       
 
       
