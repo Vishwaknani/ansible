@@ -2,6 +2,13 @@
 192.187.55.7
 198.189.67.4
 
+[localhost]
+localhost
+
+[lovalhost:vars]
+course="devops from inventory"
+trainer="siva"
+
 [web]
 34.201.112.145
 
